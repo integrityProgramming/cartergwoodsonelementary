@@ -1,0 +1,231 @@
+body{
+   text-align: center;   
+   background-image: linear-gradient(to right, #8334eb , yellow);
+   width:a 100%;   
+}
+header{
+   padding: 65px;
+}
+
+.left-image {
+   float: left;
+}
+
+.right-image {
+   float: right;
+}
+
+.woodson-img {
+   height: 100px;
+   width: auto;
+   border-radius: 50%;
+}
+
+ul.supplyList{
+   list-style-type: none;
+}
+
+.pre-k {
+   background-color: white;
+}
+
+.non-coloredDiv {
+   padding: 25px 0px;
+}
+
+
+/*Navigation bar*/
+.navigation-links{
+   list-style-type: none; 
+}
+nav {
+   font-weight: bold;
+   float: none;
+  position: absolute;
+  left: 20%;
+}
+
+.navbar {
+   padding-top: 35px;
+}
+
+.outer-div {
+   margin: 35px;
+}
+
+.inner-card {
+   width: 85%;
+
+}
+
+.left-card {
+   float: left;
+   width: 40%;
+   background-color: yellow;
+   color: #8334eb;
+   
+}
+
+.right-card {
+   float: right;
+   width: 40%;
+   background-color: #8334eb;
+   color: yellow;
+}
+
+.button {
+   background-color: black;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 10px 2px;
+   cursor: pointer;
+ }
+ .attention-button {
+   border-radius: 16px;
+ }
+
+.woodson-mascot-img{
+   margin-left: auto;
+  margin-right: auto;
+  height: 35%;
+   width: 35%;
+}
+
+ .schoolBulletin-button {
+   background-color: yellow;
+   border: #8334eb 2px solid;
+   color: #8334eb;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   margin: 50px 2px 30px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+ }
+
+ .card-attention-left {
+   height: 100%;
+    width: 20%;
+    padding: 0 5px;
+    float:left;
+    background-color: white;
+   margin-left: 100px;
+  }
+
+ .covid-section {
+   text-align:center;
+ }
+
+ .card-attention-right {
+   height: 100%;
+   width: 20%;
+    padding: 0 5px;
+    float:right;
+    background-color: white;
+   margin-right: 100px;
+  }
+  
+  .card-vaccinations {
+    height: 350px;
+   background: transparent;
+   border: none;
+  }
+
+ .card {
+   margin: 0 5% 0 5%;
+ }
+.hamburger-menu {
+   text-align: left;
+}
+.nav-item:hover {
+   background-color: white;
+ }
+
+ .lastName {
+   line-height: 0px;
+ }
+
+ .extraSpacing {
+   padding-bottom: 10px;
+   padding-top: 10px;
+ }
+
+ hr{
+   background-color: black;
+   width: 30%;
+   height: 2px;
+ }
+
+ .coloredDiv {
+   background-color: lightgray;
+ }
+
+ .active {
+   color: white;
+   border-color: white;
+ }
+ .heading-principal{
+   float: left;
+   padding-left: 50px;
+   padding-top: 10px;
+   
+ }
+
+ .main-landingPage{
+   background-image: url("https://static.wixstatic.com/media/090527_8279adc5255f41f6ab7494dc7b762414~mv2.jpg/v1/fill/w_456,h_224,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2957124007_9cd8dbcfb3_z.jpg");
+   background-image: url("paper.gif");
+}
+
+ .fa-solid {
+   color: darkblue;
+ }
+ .heading-viceprincipal{
+   float: right;
+   padding-right: 50px;
+   padding-top: 10px;
+ }
+
+ footer {
+   margin-top: 5%;
+   padding: 40px;
+ }
+ footer p {
+   text-align: center;
+   padding: 3px;
+ }
+
+ footer li {
+   display: inline-block;
+ }
+ 
+ 
+@media (max-width: 720px){
+   .title-h1 {
+      font-size: 28px;
+   }
+   .woodson-img {
+      height: 50px;
+   }
+}
+
+@media (max-width: 580px){
+   .title-h1 {
+      font-size: 22px;
+   }
+   .woodson-img {
+      height: 50px;
+   }
+}
+
+@media (max-width: 980px){
+   .title-h1 {
+      font-size: 32px;
+   }
+   .woodson-img {
+      height: 50px;
+   }
+}
